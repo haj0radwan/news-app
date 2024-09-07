@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_app/features/news/data/models/articldto.dart';
 import 'package:news_app/features/news/presentation/bloc/news_bloc.dart';
-import '../../domain/entities/newsentity.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ArticleItemDto extends StatelessWidget {
